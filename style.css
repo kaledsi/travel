@@ -1,0 +1,419 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.content i{
+
+    background-color: rgb(32, 123, 228);
+    height: 36px;
+    width: 32px;
+    line-height: 36px;
+    text-align: center;
+    color: #fafafa;
+    font-size: 21px;
+    border-radius: 10px;
+    margin-right: 5px;
+
+}
+.name-btn{
+    background-color: #fafafa;
+   border: solid 2px rgb(32, 123, 228);
+   padding: 7px 34px;
+    transition: 0.5s;
+    color:rgb(32, 123, 228)
+}
+
+.name-btn:hover{
+    background-color: rgb(32, 123, 228);
+    color: #fafafa;
+    box-shadow: 5px 0px 8px 0px #0d99d1;
+
+}
+
+.content a{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.im{
+    width: 70%;
+}
+
+.header-section{
+    background: url(mbr-10.jpg) no-repeat center center;
+    height: 400px;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+}
+.lot-button{
+    border: none;
+}
+
+
+.header-section::after{
+    content:"";
+    height: 400px;
+    width: 100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+  
+    background:  rgb(0, 0, 0, 0.6);
+    z-index: -1;
+
+}
+
+.header-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.max-hedar h4 {
+    color: #fafafa;
+}
+.max-hedar h1 {
+    color: #fafafa;
+}
+.sub-herader input{
+    padding: 10px 53px;
+    border-radius: 5px;
+    border: none;
+
+
+}
+.sub-herader input:focus{
+    box-shadow: 5px 0px 8px 0px #0d99d1;
+    border-color: #fafafa;
+}
+.sub-herader button {
+    padding: 10px 95px;
+    transition: 1.5s;
+    margin: -5px 5px 0px;
+    
+}
+.sub-herader button:hover{
+    box-shadow: 5px 0px 8px 0px #0d99d1;
+    background-color: cornsilk;
+    color:#111;
+    border: none;
+}
+.cont {
+    text-align: center;
+}
+.cont h1{}
+.cont p{}
+.but{
+    flex: 1 1;
+}
+.cannot{
+ 
+}
+.tenx{
+    text-align: center;
+    margin-top: 160px;
+}
+
+.img{
+    width: 100%;
+}
+.tenx h1{
+    width: 100%;
+}
+.tenx p{
+    width: 100%;
+}
+.img img{
+    width: 400px;
+}
+
+.next{
+    text-align: center;
+    margin-top: 50px;
+}
+.next h1{
+    font-size: 45px;
+}
+.next p{
+    font-size: 20px;
+}
+
+.man-section{
+    background: #f7f9ff;
+}
+
+
+.six-image {
+    flex: 1 1;
+    max-width: 300px;
+    background-color: #f5f6fa;
+    
+}
+
+.open h1{
+    font-size: 20px;
+}
+
+.open{
+    padding-bottom: 81px;
+}
+.opentow h1{
+    font-size: 20px;
+}
+
+.opentow{
+    padding-bottom: 83px;
+}
+
+.img-left{
+    width: 100px;
+    height: 100px;
+}
+
+.img-left img{
+    width: 100px;
+    height: 261px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+
+.text-pt{
+    padding: 11px;
+}
+
+.nametow{
+    padding-bottom: 94px
+}
+.nametow h1{
+    font-size: 20px;
+}
+.nameone h1{
+    font-size: 20px
+}
+.nameone{
+    padding-bottom: 44px;
+}
+.namethree{
+    padding-bottom: 63px;
+}
+.namethree h1{
+    font-size: 20px
+}
+.namefour{}
+.lot{
+    padding-bottom: 32px;
+}
+.lot h1{
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 770px) {
+
+    .six-image{
+        
+        flex-direction: column;
+    }
+    
+}
+
+
+.heiding h1{
+    font-size: 40px;
+}
+
+.image-content a img{
+    max-width: 400px;
+  
+}
+.image-content a {
+    position: relative;
+    display: block;
+    
+}
+
+.image-content a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 96%;
+    background-color: rgba(98, 120, 223,.7);
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+
+.image-content:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.card-section{
+    width: 501px;
+    margin: auto;
+}
+
+.card ul{
+    list-style: none;
+}
+.card ul li span{
+    font-size: 20px;
+    color:rgb(42, 114, 173);
+   
+}
+.card ul li{
+    margin: 10px 50px;
+}
+.next-button{
+    background-color: rgb(38, 139, 197);
+     text-align: center;
+    padding: 20px;
+    width: 205px;
+    text-align: center;
+    text-decoration: none;
+    color: #fafafa;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 1.5s;
+    margin-right: 20px;
+    margin: 30px 50px;
+
+}
+
+.next-button:hover{
+    background-color: rgb(79, 197, 212);
+    color: #111;
+    border-color:rgb(32, 123, 228) !important;
+}
+.card h1{
+    text-align: center;
+}
+.card p{
+    text-align: center;
+}
+
+.nobel img{
+    border-radius: 100px;
+    width: 50px;
+    
+    
+  
+}
+.nobel{
+    margin-right: 19px;
+}
+
+.loan{
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.content{
+line-height: 0px;
+  
+}
+.fedback-sction  span{
+    font-size: 70px;
+}
+
+
+.websaite-image img{
+    border-radius: 100px;
+    margin-top: -50px;
+}
+
+.websaite-button button{
+    background-color: #f5f6fa;
+    color: #111;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 1s;
+    margin-bottom: 10px;
+}
+
+
+.websaite-button button:hover{
+    background-color: black;
+    color: #fafafa;
+}
+
+.websaite-section{
+    text-align: center;
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+
+
+.margin{
+    margin-right: -20px;;
+}
+
+.bg{
+    background-color: #f7f9ff;
+}
+
+.inputone input{
+
+    margin-top: 30px;;
+    padding: 10px 127px;
+}
+
+.inputtow input{
+    margin-top: 10px;
+    padding: 10px 20px;
+}
+
+.inputthree {
+    margin-top: 20px;
+}
+
+
+.sparow button{
+    padding: 15px 50px;
+    background-color: #2980b9;
+    color: #fafafa;
+    font-size: 20px;
+    transition: .5s;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.sparow button:hover{
+    background-color: #fafafa;
+    color: #111;
+}
+
+
+.inputthree textarea{
+    padding: 0px 100px;
+}
+
+
+.end button{
+    padding: 15px 50px;
+    border: solid 2px #0a8826;
+    background-color: #fafafa;
+    color: #0a8826;
+    margin-right: 10px;
+    transition: 1s;
+    margin-top: 40px;
+}
+
+.end button:hover{
+    color: #111;
+    background-color: #0a8826;
+}
+
+
+
+.end-image img{
+    width: 500px;
+    height: 599px;
+}
